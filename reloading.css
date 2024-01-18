@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    box-sizing: border-box;
+    padding: 30px;
+    min-height: 100vh;
+    background-color: white;
+}
+#ipt{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    width: 80%;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+h1{
+    margin: 20px 0;
+}
+.output{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+p{
+    padding: 20px;
+    margin : 5px 0;
+    background:linear-gradient(to right , blue 0%, blue 1%, aquamarine 1% , aquamarine 100%);
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+}
+.right-icon{
+    position:absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.right-icon:hover{
+    color:red;
+}
+#ck-box{
+    cursor: pointer;
+    background-color: blue;
+    margin-right: 10px;
+}
+.checked-text {
+    text-decoration: line-through;
+}
